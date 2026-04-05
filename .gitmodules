@@ -1,3 +1,6 @@
 [submodule "lib/toolbox3d"]
 	path = lib/toolbox3d
 	url = git@github.com:ShuntaroAoki/toolbox3d.git
+[submodule "feature-decoding"]
+	path = feature-decoding
+	url = git@github.com:KamitaniLab/feature-decoding.git
