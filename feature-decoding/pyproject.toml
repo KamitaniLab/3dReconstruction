@@ -1,0 +1,12 @@
+[project]
+name = "feature-decoding"
+version = "0.1.0"
+description = "DNN feature decoding from fMRI brain activity using FastL2LiR regression"
+readme = "README.md"
+requires-python = ">=3.8.5"
+dependencies = [
+    "bdpy>=0.25.1",
+    "fastl2lir>=0.10",
+    "hydra-core==1.0.6",
+    "numpy==1.20",
+]

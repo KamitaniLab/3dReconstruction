@@ -1,0 +1,83 @@
+decoder:
+  name: train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_fastl2lir_alpha5000
+  path: ../data/feature-decoders/train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_fastl2lir_alpha5000/diffusion_point_cloud
+  parameters:
+    alpha: 5000
+    chunk_axis: 1
+
+  fmri:
+    name: train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex
+    subjects:
+      - name: S1
+        paths:
+          - ../data/fmri/S1_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5
+      - name: S2
+        paths:
+          - ../data/fmri/S2_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5
+      - name: S3
+        paths:
+          - ../data/fmri/S3_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5
+      - name: S4
+        paths:
+          - ../data/fmri/S4_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5
+      - name: S5
+        paths:
+          - ../data/fmri/S5_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5
+    rois:
+      - {name: EarlyVC,   select: hcp180_EarlyVC,  num: 5000}
+      - {name: VentralVC, select: hcp180_VentralVC, num: 5000}
+      - {name: DorsalVC,  select: hcp180_DorsalVC,  num: 5000}
+      - {name: MTVC,      select: hcp180_MTVC,      num: 5000}
+      - {name: WholeVC,   select: hcp180_hcpVC,     num: 5000}
+    label_key: stimulus_name
+
+  features:
+    name: diffusion_point_cloud
+    paths:
+      - ../data/features/train-3d-natural-objects/diffusion_point_cloud
+    layers:
+      - shape_latent
+
+decoded_feature:
+  name: train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000
+  path: ../data/decoded-features/train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000/diffusion_point_cloud
+  parameters:
+    average_sample: true
+
+  decoder:
+    name: train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_fastl2lir_alpha5000
+    path: ../data/feature-decoders/train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_fastl2lir_alpha5000/diffusion_point_cloud
+
+  fmri:
+    name: test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex
+    subjects:
+      - name: S1
+        paths:
+          - ../data/fmri/S1_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5
+      - name: S2
+        paths:
+          - ../data/fmri/S2_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5
+      - name: S3
+        paths:
+          - ../data/fmri/S3_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5
+      - name: S4
+        paths:
+          - ../data/fmri/S4_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5
+      - name: S5
+        paths:
+          - ../data/fmri/S5_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5
+    rois:
+      - {name: EarlyVC,   select: hcp180_EarlyVC}
+      - {name: VentralVC, select: hcp180_VentralVC}
+      - {name: DorsalVC,  select: hcp180_DorsalVC}
+      - {name: MTVC,      select: hcp180_MTVC}
+      - {name: WholeVC,   select: hcp180_hcpVC}
+    label_key: stimulus_name
+    exclude_labels:
+
+  features:
+    name: diffusion_point_cloud
+    paths:
+      - ../data/features/test-3d-natural-objects/diffusion_point_cloud
+    layers:
+      - shape_latent

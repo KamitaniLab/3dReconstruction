@@ -1,0 +1,358 @@
+{
+    "fmri_visualcortex": {
+        "zip": false,
+        "save_in": "./fmri",
+        "files": [
+            {
+                "name": "S1_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422782",
+                "md5sum": "a9c47021ffe072cd78ccf3aabc0b0ea9"
+            },
+            {
+                "name": "S1_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422722",
+                "md5sum": "47c8d2f24849312c36146f17a084fe3c"
+            },
+            {
+                "name": "S1_test-3d-artificial-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422680",
+                "md5sum": "34ed8f0ddcd0b012d4db7ff8aebff27c"
+            },
+            {
+                "name": "S1_test-3d-artificial-objects-rds_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422692",
+                "md5sum": "7ba5fff90379fee557897b7dfcdcb28d"
+            },
+            {
+                "name": "S1_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422704",
+                "md5sum": "5d7e18a3dabf20c8a36d61a5a036833d"
+            },
+            {
+                "name": "S1_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422713",
+                "md5sum": "c766ce5f355d975e17a91ed82d73fdfe"
+            },
+            {
+                "name": "S2_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423061",
+                "md5sum": "1ada768fe92f127a848f0328974e51c6"
+            },
+            {
+                "name": "S2_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423049",
+                "md5sum": "b51d108ca0bf6338c12ec42de9d5260b"
+            },
+            {
+                "name": "S2_test-3d-artificial-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422836",
+                "md5sum": "6b34535ce882b42664b1fb060d4ace1b"
+            },
+            {
+                "name": "S2_test-3d-artificial-objects-rds_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422932",
+                "md5sum": "cbf6564941d8b222d62170724551c6e1"
+            },
+            {
+                "name": "S2_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65422941",
+                "md5sum": "95930d02982b91fd58f042eaf479eec7"
+            },
+            {
+                "name": "S2_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423037",
+                "md5sum": "f020b756a7bf769e0e4b8fda0efea51e"
+            },
+            {
+                "name": "S3_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423442",
+                "md5sum": "2fa40c2cbca54e4871d03b9fed3b3825"
+            },
+            {
+                "name": "S3_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423421",
+                "md5sum": "f7d99b469167ab84503e6fe3e6f4f08a"
+            },
+            {
+                "name": "S3_test-3d-artificial-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423097",
+                "md5sum": "31601a76307c20e5b9345dabd8a5bb8d"
+            },
+            {
+                "name": "S3_test-3d-artificial-objects-rds_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423106",
+                "md5sum": "db633feb07abdea455cde1b16866c374"
+            },
+            {
+                "name": "S3_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423121",
+                "md5sum": "98ad7d7d0f91c18c09bc1e0c72b8bd8a"
+            },
+            {
+                "name": "S3_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423142",
+                "md5sum": "6cac68e5c1342b42450af1d475506edf"
+            },
+            {
+                "name": "S4_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423631",
+                "md5sum": "96a9ade91040c47655eb0af0f38f8a5d"
+            },
+            {
+                "name": "S4_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423601",
+                "md5sum": "d62d77598ed7666d2dece403508383ff"
+            },
+            {
+                "name": "S4_test-3d-artificial-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423484",
+                "md5sum": "3a853b9e1105410401469b4aef697d72"
+            },
+            {
+                "name": "S4_test-3d-artificial-objects-rds_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423502",
+                "md5sum": "7c69f16abcf48dcd92a00be9c10b362f"
+            },
+            {
+                "name": "S4_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423508",
+                "md5sum": "64b0819d7e1ac67c43b8850ff377fc8f"
+            },
+            {
+                "name": "S4_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423544",
+                "md5sum": "0d3df088ffb520ca02795ae6800d2f41"
+            },
+            {
+                "name": "S5_train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423835",
+                "md5sum": "d36741364f45bd12968a62d6fb79d08d"
+            },
+            {
+                "name": "S5_test-3d-natural-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423808",
+                "md5sum": "aa47962b5ff037d29da3e7852ff4cd4c"
+            },
+            {
+                "name": "S5_test-3d-artificial-objects-image_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423754",
+                "md5sum": "d1688bcb695b1b2b008e2328626fccf1"
+            },
+            {
+                "name": "S5_test-3d-artificial-objects-rds_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423757",
+                "md5sum": "fb7fed6eb3f896cdcd6190f43940f908"
+            },
+            {
+                "name": "S5_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423778",
+                "md5sum": "26bd6c85521fdeb4102d874b05dde713"
+            },
+            {
+                "name": "S5_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_volume_native_visualcortex.h5",
+                "url": "https://ndownloader.figshare.com/files/65423784",
+                "md5sum": "edf1097fe16f6561ea0c547ce2cbba62"
+            }
+        ]
+    },
+    "features": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "feature-train-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65662173",
+                "md5sum": "071ec36b3d906d331c178a0ccc7f4011",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "feature-test-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65662167",
+                "md5sum": "7eb5748f1e52d44f40c3ee41abf31424",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "feature-test-3d-artificial-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65662164",
+                "md5sum": "be25825d63d0121914e12a634e4a026a",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    },
+    "pointcloud": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "pointcloud-train-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65394822",
+                "md5sum": "6ba3431b019a12fc7b0ed1b1c7c3059e",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "pointcloud-test-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65394819",
+                "md5sum": "8990eaad4cdd8dd754d73f42f1e0b70c",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "pointcloud-test-3d-artificial-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65394999",
+                "md5sum": "e981b3b83dc777363f8b4ab7f7d82fc2",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "pointcloud-test-3d-contour-matched-rds-horizontal-shape-variants.zip",
+                "url": "https://ndownloader.figshare.com/files/65582562",
+                "md5sum": "6a8c5fe6a16a5ab060061ac48fe1ee46",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "pointcloud-test-3d-contour-matched-rds-thin-tilt-variants.zip",
+                "url": "https://ndownloader.figshare.com/files/65582565",
+                "md5sum": "be2b2e115ecefc7d0b96e9a4fd1ef995",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    },
+    "image": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "image-train-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65465211",
+                "md5sum": "e2424509be1ce9adc7bc9ffc6398a36e",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "image-test-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65465208",
+                "md5sum": "0cc9ab276e560a210402706e8a8355d4",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "image-test-3d-artificial-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65579262",
+                "md5sum": "0a25f0337f1094d667249a4d372fb692",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    },
+    "mesh": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "mesh-test-3d-artificial-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65611257",
+                "md5sum": "394e84e8350be935600f88cdd8b181ce",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "mesh-test-3d-contour-matched-rds-horizontal-shape-variants.zip",
+                "url": "https://ndownloader.figshare.com/files/65582553",
+                "md5sum": "d51d2d0bd20a3ac062246cede3a08f46",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "mesh-test-3d-contour-matched-rds-thin-tilt-variants.zip",
+                "url": "https://ndownloader.figshare.com/files/65582559",
+                "md5sum": "8765223769e2b4bcd2c4e3c0e8536c6f",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    },
+    "models": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "dnn-weights-atlasnet.zip",
+                "url": "https://ndownloader.figshare.com/files/65662092",
+                "md5sum": "ec50b37e574cd5f8283c8bea1879f217",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            },
+            {
+                "name": "dnn-weights-diffusion-point-cloud-autoencoder.zip",
+                "url": "https://ndownloader.figshare.com/files/65662095",
+                "md5sum": "3ea599c17a206d08630298a47cae3dbe",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    },
+    "feature_decoders": {
+        "save_in": "./",
+        "files": [
+            {
+                "name": "decoder-train-3d-natural-objects.zip",
+                "url": "https://ndownloader.figshare.com/files/65676825",
+                "md5sum": "ee44a28c6792a18c53ed19f211e324d4",
+                "postproc": [
+                    {
+                        "name": "unzip"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+representation:
+  name: diffusion_point_cloud
+  reconstruction_name: diffusion_point_cloud_shape_latent
+  feature_name: diffusion_point_cloud
+  decoded_feature_name: diffusion_point_cloud
+  source_layer: shape_latent
+  visualization_object_type: pointcloud
+
+decoding:
+  option: fmriprep_5000voxel_fastl2lir_alpha5000
+
+evaluation:
+  output_prefix: diffusion_point_cloud
+
+feature_decoding:
+  results_dir: outputs/evaluation/feature-decoding
+
+reconstruction_evaluation:
+  results_dir: outputs/evaluation/reconstruction
