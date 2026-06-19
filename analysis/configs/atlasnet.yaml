@@ -1,0 +1,19 @@
+representation:
+  name: atlasnet
+  reconstruction_name: atlasnet_encoder_bn5
+  feature_name: atlasnet
+  decoded_feature_name: atlasnet
+  source_layer: encoder_bn5
+  visualization_object_type: mesh
+
+decoding:
+  option: fmriprep_5000voxel_fastl2lir_alpha5000
+
+evaluation:
+  output_prefix: atlasnet
+
+feature_decoding:
+  results_dir: outputs/evaluation/feature-decoding
+
+reconstruction_evaluation:
+  results_dir: outputs/evaluation/reconstruction

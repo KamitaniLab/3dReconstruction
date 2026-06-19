@@ -1,0 +1,24 @@
+[project]
+name = "reconstruction-atlasnet"
+version = "0.1.0"
+description = "3D reconstruction with AtlasNet"
+requires-python = ">=3.8.5"
+dependencies = [
+    "atlasnet",
+    "bdpy>=0.19",
+    "easydict>=1.10",
+    "h5py>=3.1.0",
+    "numpy>=1.19.5,<1.24",
+    "Pillow>=8.4.0",
+    "torch==1.9.1",
+    "torchvision==0.10.1",
+    "tqdm>=4.50.2",
+    "pymesh2",
+    "termcolor>=2.4.0",
+]
+
+[tool.uv.sources]
+torch = { url = "https://download.pytorch.org/whl/cu111/torch-1.9.1%2Bcu111-cp38-cp38-linux_x86_64.whl" }
+torchvision = { url = "https://download.pytorch.org/whl/cu111/torchvision-0.10.1%2Bcu111-cp38-cp38-linux_x86_64.whl" }
+pymesh2 = { git = "https://github.com/PyMesh/PyMesh.git" }
+atlasnet = { path = "../../lib/AtlasNet", editable = true }

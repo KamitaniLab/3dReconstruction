@@ -4,3 +4,9 @@
 [submodule "feature-decoding"]
 	path = feature-decoding/scripts
 	url = git@github.com:KamitaniLab/feature-decoding.git
+[submodule "lib/diffusion-point-cloud"]
+	path = lib/diffusion-point-cloud
+	url = git@github.com:KamitaniLab/diffusion-point-cloud.git
+[submodule "lib/AtlasNet"]
+	path = lib/AtlasNet
+	url = git@github.com:KamitaniLab/AtlasNet.git
