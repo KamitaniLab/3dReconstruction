@@ -4,11 +4,15 @@ Scripts for reconstructing 3D shapes (point cloud and mesh) from DNN features us
 
 ## Setup
 
-Run scripts from the `reconstruction/atlasnet/` directory.
+### Environment
+
+The environment setup (system packages and Python environment) is identical to `feature-extraction/atlasnet/`. Follow the [setup instructions](../../feature-extraction/atlasnet/README.md#setup) there, then install dependencies for this directory:
 
 ```bash
-cd reconstruction/atlasnet
+uv sync
 ```
+
+### Model weights
 
 The AtlasNet model weights must be placed at:
 
@@ -19,7 +23,7 @@ data/models/atlasnet/network_crtd.pth
 ## Usage
 
 ```bash
-python recon_from_features.py
+uv run recon_from_features.py
 ```
 
 Both true-feature reconstruction and decoded-feature reconstruction are executed in a single run.
