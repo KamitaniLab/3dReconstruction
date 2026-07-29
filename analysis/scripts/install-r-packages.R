@@ -14,10 +14,22 @@ install_exact <- function(package, version) {
 }
 
 packages <- c(
-  "lme4" = "1.1-37",
-  "lmerTest" = "3.1-3",
-  "pbkrtest" = "0.5.5",
+  # Indirect dependency of pbkrtest:
+  # Deriv 4.3.0 cannot be compiled with R 4.3.3
+  "Deriv" = "4.2.0",
+
+  # Required by doBy and pbkrtest
   "broom" = "1.0.9",
+
+  # Required by lmerTest and pbkrtest
+  "lme4" = "1.1-37",
+
+  # Compatible with pbkrtest 0.5.5
+  "doBy" = "4.7.0",
+  "pbkrtest" = "0.5.5",
+
+  # Other pinned packages
+  "lmerTest" = "3.1-3",
   "broom.mixed" = "0.2.9.6",
   "emmeans" = "1.11.2-8"
 )
