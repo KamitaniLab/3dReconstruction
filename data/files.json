@@ -320,8 +320,8 @@
         "files": [
             {
                 "name": "dnn-weights-atlasnet.zip",
-                "url": "https://ndownloader.figshare.com/files/65662092",
-                "md5sum": "ec50b37e574cd5f8283c8bea1879f217",
+                "url": "https://ndownloader.figshare.com/files/68161087",
+                "md5sum": "83406a67109c1670fd1e93702b8a5dec",
                 "postproc": [
                     {
                         "name": "unzip"
