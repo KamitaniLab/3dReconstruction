@@ -42,7 +42,7 @@ uv run python scripts/predict_feature_fastl2lir.py <config_file>
 Train a linear decoder that maps fMRI responses to DNN features.
 
 ```bash
-python scripts/train_decoder_fastl2lir.py config/train-3d-natural-objects_rep3_fmap_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_atlasnet.yaml
+python scripts/train_decoder_fastl2lir.py config/train-3d-natural-objects-image_rep3_fmap_test-3d-natural-objects-image_rep8_fmap_fmriprep_5000voxel_atlasnet.yaml
 ```
 
 Output: feature decoders saved to the path specified by `decoder.path` in the config.
