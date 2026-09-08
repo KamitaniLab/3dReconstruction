@@ -20,6 +20,29 @@ The AtlasNet model weights must be placed at:
 data/models/atlasnet/network_crtd.pth
 ```
 
+## Feature scaling
+
+Before reconstructing shapes from decoded features, scale the decoded test
+features using the standard deviation estimated from cross-validation predictions.
+
+First, complete:
+
+1. Regular feature decoder training and feature prediction.
+2. Cross-validation decoder training and prediction described in
+   [feature-decoding/README.md](../../feature-decoding/README.md#cross-validation-for-feature-scaling).
+
+Then run:
+
+```bash
+uv run feature_scaling.py
+```
+
+For every experiment listed in `feature_scaling.py`, the scaled features are saved to:
+
+```text
+data/decoded-features/{experiment}_scaled_traincvstd/atlasnet/
+```
+
 ## Usage
 
 ```bash
@@ -51,9 +74,12 @@ true/
 
 ### From decoded features
 
-Input: `data/decoded-features/{experiment}/atlasnet/`
+Input: `data/decoded-features/{experiment}_scaled_traincvstd/atlasnet/`
 
-Output: `data/reconstruction/atlasnet_encoder_bn5/decoded/{experiment}/{subject}/{roi}/`
+Output: `data/reconstruction/atlasnet_encoder_bn5/decoded/{experiment}_scaled_traincvstd/{subject}/{roi}/`
+
+`recon_from_features.py` reconstructs shapes only from the scaled decoded-feature
+datasets listed in `decoded_datasets`.
 
 ```
 decoded/

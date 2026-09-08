@@ -152,11 +152,11 @@ if __name__ == '__main__':
 
     # Decoded features
     decoded_datasets = [
-        'train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
-        'train-3d-natural-objects_rep3_test-3d-artificial-objects-image_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
-        'train-3d-natural-objects_rep3_test-3d-artificial-objects-rds_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
-        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
-        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
+        'train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
+        'train-3d-natural-objects_rep3_test-3d-artificial-objects-image_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
+        'train-3d-natural-objects_rep3_test-3d-artificial-objects-rds_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
+        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
+        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
     ]
 
     subjects = ['S1', 'S2', 'S3', 'S4', 'S5']
