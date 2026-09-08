@@ -52,7 +52,7 @@ Output: feature decoders saved to the path specified by `decoder.path` in the co
 Apply trained decoders to test fMRI data to predict DNN features.
 
 ```bash
-python scripts/predict_feature_fastl2lir.py config/train-3d-natural-objects_rep3_fmap_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_atlasnet.yaml
+python scripts/predict_feature_fastl2lir.py config/train-3d-natural-objects-image_rep3_fmap_test-3d-natural-objects-image_rep8_fmap_fmriprep_5000voxel_atlasnet.yaml
 ```
 
 Output: decoded features saved to the path specified by `decoded_feature.path` in the config.
