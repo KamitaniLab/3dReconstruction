@@ -1,6 +1,6 @@
 decoder:
-  name: train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000
-  path: ../data/feature-decoders/train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000/diffusion_point_cloud
+  name: cv_train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000
+  path: ../data/feature-decoders/cv_train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000/diffusion_point_cloud
   parameters:
     alpha: 5000
     chunk_axis: 1
@@ -45,8 +45,8 @@ decoded_feature:
     average_sample: true
 
   decoder:
-    name: train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000
-    path: ../data/feature-decoders/train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000/diffusion_point_cloud
+    name: cv_train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000
+    path: ../data/feature-decoders/cv_train-3d-natural-objects_rep3_fmap_fmriprep_5000voxel_allunits_fastl2lir_alpha5000/diffusion_point_cloud
 
   fmri:
     name: train-3d-natural-objects-image_rep3_fmap_volume_native_visualcortex

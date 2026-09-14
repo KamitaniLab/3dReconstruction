@@ -76,7 +76,7 @@ true/
 
 Input: `data/decoded-features/{experiment}_scaled_traincvstd/atlasnet/`
 
-Output: `data/reconstruction/atlasnet_encoder_bn5/decoded/{experiment}_scaled_traincvstd/{subject}/{roi}/`
+Output: `data/reconstruction/atlasnet_encoder_bn5/decoded/{experiment}/{subject}/{roi}/`
 
 `recon_from_features.py` reconstructs shapes only from the scaled decoded-feature
 datasets listed in `decoded_datasets`.

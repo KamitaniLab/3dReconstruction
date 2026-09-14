@@ -69,7 +69,12 @@ uv run python scripts/cv_train_decoder_fastl2lir.py config/cv_train-3d-natural-o
 ```
 
 Output: cross-validation decoders are saved to the path specified by
-`decoder.path` in the CV config.
+`decoder.path` in the CV config. CV decoder directories use a `cv_` prefix to
+distinguish them from decoders trained on all samples:
+
+```text
+data/feature-decoders/cv_{decoder_name}/
+```
 
 #### 2. Decode cross-validation features
 
@@ -78,7 +83,12 @@ uv run python scripts/cv_predict_feature_fastl2lir.py config/cv_train-3d-natural
 ```
 
 Output: cross-validated training features are saved to the path specified by
-`decoded_feature.path` in the CV config.
+`decoded_feature.path` in the CV config. They remain under the standard decoded
+feature directory:
+
+```text
+data/decoded-features/{experiment_name}/
+```
 
 The cross-validated features are subsequently used for feature scaling. See
 [the AtlasNet reconstruction instructions](../reconstruction/atlasnet/README.md#feature-scaling).

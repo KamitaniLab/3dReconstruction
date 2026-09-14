@@ -152,11 +152,11 @@ if __name__ == '__main__':
 
     # Decoded features
     decoded_datasets = [
-        'train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
-        'train-3d-natural-objects_rep3_test-3d-artificial-objects-image_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
-        'train-3d-natural-objects_rep3_test-3d-artificial-objects-rds_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
-        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
-        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000_scaled_traincvstd',
+        'train-3d-natural-objects_rep3_test-3d-natural-objects_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
+        'train-3d-natural-objects_rep3_test-3d-artificial-objects-image_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
+        'train-3d-natural-objects_rep3_test-3d-artificial-objects-rds_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
+        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-horizontal-shape-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
+        'train-3d-natural-objects_rep3_test-3d-contour-matched-rds-thin-tilt-variants_rep8_fmap_fmriprep_5000voxel_fastl2lir_alpha5000',
     ]
 
     subjects = ['S1', 'S2', 'S3', 'S4', 'S5']
@@ -192,7 +192,7 @@ if __name__ == '__main__':
         model_path   = model['path']
         source_layer = model['layer']
 
-        feature_path = os.path.join(data_dir, 'decoded-features', exp, model_name)
+        feature_path = os.path.join(data_dir, 'decoded-features', exp + '_scaled_traincvstd', model_name)
         if not os.path.exists(feature_path):
             print(f'{feature_path} does not exist. Skipped.')
             continue
