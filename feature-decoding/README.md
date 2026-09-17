@@ -57,6 +57,42 @@ python scripts/predict_feature_fastl2lir.py config/train-3d-natural-objects-imag
 
 Output: decoded features saved to the path specified by `decoded_feature.path` in the config.
 
+### Cross-validation for feature scaling
+
+Cross-validation predictions on the training dataset are used to estimate the
+standard deviation of decoded features for feature scaling.
+
+#### 1. Train cross-validation decoders
+
+```bash
+uv run python scripts/cv_train_decoder_fastl2lir.py config/cv_train-3d-natural-objects-image_rep3_fmap_fmriprep_5000voxel_atlasnet.yaml
+```
+
+Output: cross-validation decoders are saved to the path specified by
+`decoder.path` in the CV config. CV decoder directories use a `cv_` prefix to
+distinguish them from decoders trained on all samples:
+
+```text
+data/feature-decoders/cv_{decoder_name}/
+```
+
+#### 2. Decode cross-validation features
+
+```bash
+uv run python scripts/cv_predict_feature_fastl2lir.py config/cv_train-3d-natural-objects-image_rep3_fmap_fmriprep_5000voxel_atlasnet.yaml
+```
+
+Output: cross-validated training features are saved to the path specified by
+`decoded_feature.path` in the CV config. They remain under the standard decoded
+feature directory:
+
+```text
+data/decoded-features/{experiment_name}/
+```
+
+The cross-validated features are subsequently used for feature scaling. See
+[the AtlasNet reconstruction instructions](../reconstruction/atlasnet/README.md#feature-scaling).
+
 ## Config files
 
 Config files are located in `config/`. Each file specifies a combination of training and test datasets.

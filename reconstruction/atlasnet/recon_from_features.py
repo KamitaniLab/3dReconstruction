@@ -192,7 +192,7 @@ if __name__ == '__main__':
         model_path   = model['path']
         source_layer = model['layer']
 
-        feature_path = os.path.join(data_dir, 'decoded-features', exp, model_name)
+        feature_path = os.path.join(data_dir, 'decoded-features', exp + '_scaled_traincvstd', model_name)
         if not os.path.exists(feature_path):
             print(f'{feature_path} does not exist. Skipped.')
             continue
